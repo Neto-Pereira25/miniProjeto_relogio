@@ -17,7 +17,7 @@ class Watch():
         self.janela.mainloop()
         
     def tela(self):
-        self.janela.title("") # cria o título da janela
+        self.janela.title("Relógio Digital") # cria o título da janela
         self.janela.geometry("440x180") # diz as dimensões da janela
         self.janela.resizable(width = False, height = False) # impede a alteração das dimensões
         self.janela.configure(bg = cor1) # define a cor do fundo da janela
